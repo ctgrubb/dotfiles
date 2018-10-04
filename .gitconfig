@@ -3,3 +3,5 @@
 # Please adapt and uncomment the following lines:
 	name = Chris Grubb
 	email = ctgrubb@vt.edu
+[push]
+	default = simple
