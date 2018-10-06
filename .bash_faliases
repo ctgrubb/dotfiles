@@ -1,17 +1,29 @@
 #!/bin/sh
 
 if [ "$HOSTNAME" = hertz ]; then 
+  cl() {
+    cd ~/Documents/Classwork/classlib/"$1"
+  }
   hm() {
     cd ~/Documents/Classwork/classlib/hm/"$1"
   }
   he() {
     cd ~/Documents/Research/heatexposure/"$1"
   }
+  hed() {
+    cd ~/Storage/heatexposure/"$1"
+  }
 elif [ "$HOSTNAME" = broce ]; then
+  cl() {
+    cd ~/git-repos/classlib/"$1"
+  }
   hm() {
     cd ~/git-repos/classlib/hm/"$1"
   }
   he() {
     cd ~/git-repos/heatexposure/"$1"
+  }
+  hed() {
+    cd /storage/chris/heatexposure/"$1"
   }
 fi
