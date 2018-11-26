@@ -1,6 +1,6 @@
-options(defaultPackages=c(getOption("defaultPackages"), "devtools", "roxygen2", "colorout"))
+options(defaultPackages=c(getOption("defaultPackages"), "devtools", "roxygen2"))
 
-if (interactive()) {
-  .Last <- function() try(savehistory("~/.Rhistory"))
-}
+# if (interactive()) {
+#   .Last <- function() try(savehistory("~/.Rhistory"))
+# }
 
