@@ -4,6 +4,7 @@
 # 3. No loading .RData if one exists in wd
 # 4. No saving .RData unless explicitly called in R
 alias R='R --no-save --no-restore-data --quiet'
+alias RCB='R CMD BATCH'
 
 # Used for dotfiles repo
 # See https://developer.atlassian.com/blog/2016/02/best-way-to-store-dotfiles-git-bare-repo/
