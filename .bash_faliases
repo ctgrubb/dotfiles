@@ -7,6 +7,9 @@ if [ "$HOSTNAME" = hertz ]; then
   hm() {
     cd ~/Documents/Classwork/classlib/hm/"$1"
   }
+  rsm() {
+    cd ~/Documents/Classwork/classlib/rsm/"$1"
+  }
   he() {
     cd ~/Documents/Research/heatexposure/"$1"
   }
@@ -25,6 +28,9 @@ elif [ "$HOSTNAME" = broce ]; then
   }
   hm() {
     cd ~/git-repos/classlib/hm/"$1"
+  }
+  rsm() {
+    cd ~/git-repos/classlib/rsm/"$1"
   }
   he() {
     cd ~/git-repos/heatexposure/"$1"
