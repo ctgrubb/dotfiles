@@ -25,6 +25,9 @@ if [ "$HOSTNAME" = hertz ]; then
   smd() {
     cd ~/Storage/surfacemining/"$1"
   }
+  mdnngp() {
+    cd ~/Documents/Research/mdnngp/"$1"
+  }
 elif [ "$HOSTNAME" = broce ]; then
   cl() {
     cd ~/git-repos/classlib/"$1"
@@ -49,5 +52,8 @@ elif [ "$HOSTNAME" = broce ]; then
   }
   smd() {
     cd /storage/chris/surfacemining/"$1"
+  }
+  mdnngp() {
+    cd ~/git-repos/mdnngp/"$1"
   }
 fi
