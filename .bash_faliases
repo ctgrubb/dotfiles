@@ -56,4 +56,7 @@ elif [ "$HOSTNAME" = broce ]; then
   mdnngp() {
     cd ~/git-repos/mdnngp/"$1"
   }
+  mdnngpd() {
+    cd /storage/chris/mdnngp/"$1"
+  }
 fi
