@@ -72,6 +72,6 @@ elif [ "$HOSTNAME" = broce ]; then
     cd ~/git-repos/advancement/"$1"
   }
   advd() {
-    cd ~/storage/chris/advancement/"$1"
+    cd /storage/chris/advancement/"$1"
   }
 fi
