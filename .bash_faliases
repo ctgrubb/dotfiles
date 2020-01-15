@@ -28,6 +28,15 @@ if [ "$HOSTNAME" = hertz ]; then
   mdnngp() {
     cd ~/Documents/Research/mdnngp/"$1"
   }
+  saig() {
+    cd ~/Documents/SAIG/"$1"
+  }
+  adv() {
+    cd ~/Documents/SAIG/advancement/"$1"
+  }
+  advd() {
+    cd ~/Storage/advancement/"$1"
+  }
 elif [ "$HOSTNAME" = broce ]; then
   cl() {
     cd ~/git-repos/classlib/"$1"
@@ -58,5 +67,11 @@ elif [ "$HOSTNAME" = broce ]; then
   }
   mdnngpd() {
     cd /storage/chris/mdnngp/"$1"
+  }
+  adv() {
+    cd ~/git-repos/advancement/"$1"
+  }
+  advd() {
+    cd ~/storage/chris/advancement/"$1"
   }
 fi
