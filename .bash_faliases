@@ -37,6 +37,9 @@ if [ "$HOSTNAME" = hertz ]; then
   advd() {
     cd ~/Storage/advancement/"$1"
   }
+  gd() {
+    cd ~/Storage/googledrive/"$1"
+  }
 elif [ "$HOSTNAME" = broce ]; then
   cl() {
     cd ~/git-repos/classlib/"$1"
