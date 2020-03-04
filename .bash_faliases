@@ -1,17 +1,8 @@
 #!/bin/sh
 
-if [ "$HOSTNAME" = hertz ]; then 
+if [ "$HOSTNAME" = velvet ]; then 
   cl() {
-    cd ~/Documents/Classwork/classlib/"$1"
-  }
-  hm() {
-    cd ~/Documents/Classwork/classlib/hm/"$1"
-  }
-  rsm() {
-    cd ~/Documents/Classwork/classlib/rsm/"$1"
-  }
-  mcmc() {
-    cd ~/Documents/Classwork/classlib/mcmc/"$1"
+    cd ~/Documents/Classwork/"$1"
   }
   he() {
     cd ~/Documents/Research/heatexposure/"$1"
@@ -25,20 +16,14 @@ if [ "$HOSTNAME" = hertz ]; then
   smd() {
     cd ~/Storage/surfacemining/"$1"
   }
-  mdnngp() {
-    cd ~/Documents/Research/mdnngp/"$1"
-  }
-  saig() {
-    cd ~/Documents/SAIG/"$1"
-  }
   adv() {
-    cd ~/Documents/SAIG/advancement/"$1"
+    cd ~/Documents/Research/advancement/"$1"
   }
   advd() {
     cd ~/Storage/advancement/"$1"
   }
   gd() {
-    cd ~/Storage/googledrive/"$1"
+    cd ~/Insync/ctgrubb@vt.edu/Google\ Drive/"$1"
   }
 elif [ "$HOSTNAME" = broce ]; then
   cl() {
