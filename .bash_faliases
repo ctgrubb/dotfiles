@@ -8,22 +8,22 @@ if [ "$HOSTNAME" = velvet ]; then
     cd ~/Documents/Research/heatexposure/"$1"
   }
   hed() {
-    cd ~/Storage/heatexposure/"$1"
+    cd /storage/heatexposure/"$1"
   }
   sm() {
     cd ~/Documents/Research/surfacemining/"$1"
   }
   smd() {
-    cd ~/Storage/surfacemining/"$1"
+    cd /storage/surfacemining/"$1"
   }
   adv() {
     cd ~/Documents/Research/advancement/"$1"
   }
   advd() {
-    cd ~/Storage/advancement/"$1"
+    cd /storage/advancement/"$1"
   }
   gd() {
-    cd ~/Insync/ctgrubb@vt.edu/Google\ Drive/"$1"
+    cd /storage/googledrive/"$1"
   }
 elif [ "$HOSTNAME" = broce ]; then
   cl() {
