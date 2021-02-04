@@ -5,7 +5,7 @@ Steps necessary to get my setup working on Pop OS 20.04
     a. Workspace Matrix
     b. Dash to Dock
   2. Fix navigation shortcuts
-    gsettings set org.gnome.mutter.keybindings toggle-tiled-left "['<Super>Left']"
+    gsettings set org.gnome.mutter.keybindings toggle-tiled-left "['<Super>Left']" \\
     gsettings set org.gnome.mutter.keybindings toggle-tiled-right "['<Super>Right']"
     gsettings set org.gnome.desktop.wm.keybindings maximize "['<Super>Up']"
     gsettings set org.gnome.desktop.wm.keybindings unmaximize "['<Super>Down']"
