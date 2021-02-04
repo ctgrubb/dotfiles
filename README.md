@@ -3,8 +3,14 @@
 Steps necessary to get my setup working on Pop OS 20.04  
   1. Gnome Extensions  
     a. Workspace Matrix  
-    b. Dash to Dock  
+    b. Unite  
+    c. Dash to Dock  
+    d. Time++  
+    e. Clipboard Indicator  
+    f. OpenWeather  
+    g. Drop Down Terminal X  
   2. Fix navigation shortcuts  
+    gsettings set org.gnome.settings-daemon.plugins.media-keys terminal "['<Shift><Super>t']"  
     gsettings set org.gnome.mutter.keybindings toggle-tiled-left "['<Super>Left']"  
     gsettings set org.gnome.mutter.keybindings toggle-tiled-right "['<Super>Right']"  
     gsettings set org.gnome.desktop.wm.keybindings maximize "['<Super>Up']"  
