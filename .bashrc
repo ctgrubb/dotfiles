@@ -112,6 +112,10 @@ if [ -f ~/.bash_faliases ]; then
     . ~/.bash_faliases
 fi
 
+# Disable page up and page down
+# xmodmap -e 'keycode 112 = ' 
+# xmodmap -e 'keycode 117 = '
+
 # enable programmable completion features (you don't need to enable
 # this, if it's already enabled in /etc/bash.bashrc and /etc/profile
 # sources /etc/bash.bashrc).

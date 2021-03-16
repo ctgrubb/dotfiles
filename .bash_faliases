@@ -4,26 +4,26 @@ if [ "$HOSTNAME" = velvet ]; then
   cl() {
     cd ~/Documents/Classwork/"$1"
   }
+  saig() {
+    cd ~/Documents/SAIG/"$1"
+  }
+  ww() {
+    cd ~/Documents/Research/wastewater/"$1"
+  }
+  lp() {
+    cd ~/Documents/Research/lemur.pack/"$1"
+  }
+  rs() {
+    cd /mnt/rshiny-remote/"$1"
+  }
   he() {
     cd ~/Documents/Research/heatexposure/"$1"
-  }
-  hed() {
-    cd /storage/heatexposure/"$1"
   }
   sm() {
     cd ~/Documents/Research/surfacemining/"$1"
   }
-  smd() {
-    cd /storage/surfacemining/"$1"
-  }
   adv() {
     cd ~/Documents/Research/advancement/"$1"
-  }
-  advd() {
-    cd /storage/googledrive/Engagement\ Statistical\ Project\/"$1"
-  }
-  gd() {
-    cd /storage/googledrive/"$1"
   }
 elif [ "$HOSTNAME" = broce ]; then
   cl() {

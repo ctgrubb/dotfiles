@@ -5,3 +5,5 @@
 	email = ctgrubb@vt.edu
 [push]
 	default = simple
+[credential]
+	helper = cache
