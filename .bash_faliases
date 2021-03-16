@@ -29,14 +29,17 @@ elif [ "$HOSTNAME" = broce ]; then
   cl() {
     cd ~/git-repos/classlib/"$1"
   }
-  hm() {
-    cd ~/git-repos/classlib/hm/"$1"
+  saig() {
+    cd ~/git-repos/saig/"$1"
   }
-  rsm() {
-    cd ~/git-repos/classlib/rsm/"$1"
+  ww() {
+    cd ~/git-repos/ww/"$1"
   }
-  mcmc() {
-    cd ~/git-repos/classlib/mcmc/"$1"
+  lp() {
+    cd ~/git-repos/lemur.pack/"$1"
+  }
+  rs() {
+    cd /mnt/rshiny-remote/"$1"
   }
   he() {
     cd ~/git-repos/heatexposure/"$1"
@@ -49,12 +52,6 @@ elif [ "$HOSTNAME" = broce ]; then
   }
   smd() {
     cd /storage/chris/surfacemining/"$1"
-  }
-  mdnngp() {
-    cd ~/git-repos/mdnngp/"$1"
-  }
-  mdnngpd() {
-    cd /storage/chris/mdnngp/"$1"
   }
   adv() {
     cd ~/git-repos/advancement/"$1"
