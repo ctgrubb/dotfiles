@@ -13,17 +13,14 @@ if [ "$HOSTNAME" = velvet ]; then
   lp() {
     cd ~/Documents/Research/lemur.pack/"$1"
   }
-  rs() {
-    cd /mnt/rshiny-remote/"$1"
-  }
-  he() {
-    cd ~/Documents/Research/heatexposure/"$1"
-  }
-  sm() {
-    cd ~/Documents/Research/surfacemining/"$1"
-  }
   adv() {
     cd ~/Documents/Research/advancement/"$1"
+  }
+  web() {
+    cd ~/Documents/Website/"$1"
+  }
+  food() {
+    cd ~/Documents/Food/"$1"
   }
 elif [ "$HOSTNAME" = broce ]; then
   cl() {
