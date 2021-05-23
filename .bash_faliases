@@ -16,6 +16,9 @@ if [ "$HOSTNAME" = velvet ]; then
   adv() {
     cd ~/Documents/Research/advancement/"$1"
   }
+  dis() {
+    cd ~/Documents/Dissertation/"$1"
+  }
   web() {
     cd ~/Documents/Website/"$1"
   }
