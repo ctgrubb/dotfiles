@@ -13,6 +13,9 @@ if [ "$HOSTNAME" = velvet ]; then
   lp() {
     cd ~/Documents/Research/lemur.pack/"$1"
   }
+  cci() {
+    cd ~/Documents/Research/lungcci/"$1"
+  }
   adv() {
     cd ~/Documents/Research/advancement/"$1"
   }
