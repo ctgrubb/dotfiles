@@ -7,3 +7,5 @@
 	default = simple
 [credential]
 	helper = cache
+[pull]
+	rebase = false
