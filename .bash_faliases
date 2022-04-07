@@ -41,6 +41,9 @@ elif [ "$HOSTNAME" = broce ]; then
   lp() {
     cd ~/git-repos/lemur.pack/"$1"
   }
+  cci() {
+    cd ~/git-repos/lungcci/"$1"
+  }
   dis() {
     cd ~/git-repos/dissertation/"$1"
   }
